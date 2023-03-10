@@ -1,0 +1,170 @@
+.formContainer {
+  background-color: rgb(240, 240, 240);
+  width: 90%;
+  margin: 24px;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.title {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  font-family: monospace;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+input {
+  margin-bottom: 8px;
+  height: 24px;
+  font-size: 1.05rem;
+  width: 100%;
+  font-family: monospace;
+}
+
+textarea {
+  margin-bottom: 8px;
+  width: 100%;
+  height: 86px;
+  font-size: 1.05rem;
+}
+
+.submit-button {
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  padding: 8px;
+  font-size: 1.2rem;
+  width: 80%;
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+
+.cv-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 48px;
+}
+
+
+.cv-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 48px 24px;
+  width: 80%;
+  background-color: rgb(0, 0, 26);
+  color: white;
+  font-family: monospace
+}
+
+.cv-header-right,
+.cv-header-left,
+.education-left,
+.education-right,
+.work-right,
+.work-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-header-right,
+.education-right,
+.work-right {
+  text-align: end;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.work-left,
+.education-left {
+  width: 60%;
+}
+.name {
+  font-size: 3em;
+  letter-spacing: .2em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-size: 2em;
+  letter-spacing: .2em;
+  font-weight: 700;
+}
+
+.email, .location, .phone-number, .edu-date, .work-date {
+  margin-bottom: 6px;
+}
+
+.underline {
+  height: 2px;
+  background-color: rgb(0, 0, 26);
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.education-section, 
+.work-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color:rgb(194, 194, 194);
+  padding: 24px 24px 24px 24px;
+  font-family: monospace;
+}
+
+.education-title,
+.work-title {
+  font-size: 3.5em;
+  letter-spacing: .1em;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.college,
+.company {
+  font-size: 2.5em;
+  letter-spacing: .15em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.major,
+.job-title {
+  font-size: 1.7em;
+  letter-spacing: .1em;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.college-description,
+.work-description {
+  font-size: 1.3em;
+  width: 80%;
+}
+
+.edu-date,
+.work-date {
+  font-size: 1.2em;
+  width: 100%;
+}
+
+.work-section {
+  margin-bottom: 48px;
+}
+
+::placeholder {
+  font-family: monospace;
+}
